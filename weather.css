@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+.back {
+    width: 280px;
+    height: 350px;
+    background-color: #ffffff;
+    position: absolute;
+    inset: 25% 40%;
+    border-radius: 10px;
+}
+
+.back .title {
+    width: 100%;
+    height: 13%;
+    border-bottom: 1px solid #d2d2d2d2;
+}
+
+.back .title p {
+    line-height: 42px;
+    position: absolute;
+    color: dodgerblue;
+    left: 10%;
+}
+
+.back .title i {
+    line-height: 45px;
+    position: absolute;
+    color: dodgerblue;
+    cursor: pointer;
+    left: 2%;
+}
+
+.back .main-weather {
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+
+.back .main-weather .main-top {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back .main-weather .main-top img {
+    width: 50%;
+    height: 100%;
+}
+
+.back .main-weather .main-temp {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    position: absolute;
+    top: 40%;
+}
+
+.back .main-weather .main-title {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 80%;
+    font-size: 1rem;
+}
+
+.back .main-weather .main-location {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: 90%;
+    font-size: 1rem;
+}
+
+.back .foter {
+    width: 100%;
+    height: 16%;
+    position: relative;
+}
+
+.back .foter .left {
+    width: 49%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    display: flex;
+    border: 1px solid #d2d2d2;
+    justify-content: center;
+    align-items: center;
+}
+
+.back .foter .right {
+    width: 49%;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    display: flex;
+    border: 1px solid #d2d2d2;
+    justify-content: center;
+    align-items: center;
+    right: 0%;
+}
